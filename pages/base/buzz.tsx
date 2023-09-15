@@ -1,21 +1,17 @@
 import Link from "next/link";
-import { useState } from "react";
 
 export default function Index() {
-    const [showPast, setShowPast] = useState(false);
     return (
         <>
-            <div className="select-none p-5">
+            <div className="select-none">
                 <div className="flex items-center justify-center mt-4">
                     <h1>you look in the mirror </h1>
                 </div>
 
                 <div className="flex items-center justify-center">
                     <img
-                        onMouseDown={() => setShowPast(true)}
-                        onMouseUp={() => setShowPast(false)}
-                        className="w-[500px] my-4 cursor-pointer"
-                        src={showPast ? "/past.jpg" : "/base.jpg"}
+                        className="w-[500px] my-4"
+                        src="/buzzed.jpg"
                         alt="Matt in the mirror"
                     />
                 </div>
@@ -28,12 +24,20 @@ export default function Index() {
                     <Link href="/base/bleach">
                         <div className="choice mx-5">bleach</div>
                     </Link>{" "}
-                    <Link href="/base/buzz">
-                        <div className="choice mx-5">buzz</div>
-                    </Link>
                     <Link href="/base/dye">
                         <div className="choice mx-5">dye</div>
                     </Link>
+                    <Link href="/">
+                        <div className="choice mx-5">grow</div>
+                    </Link>
+                </div>
+
+                <div className="flex items-center justify-center mt-8 ">
+                    <Link href="/">
+                        <div className="choice mx-5 opacity-20 hover:opacity-70 transition">
+                            return to start
+                        </div>
+                    </Link>{" "}
                 </div>
             </div>
         </>
