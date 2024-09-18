@@ -11,29 +11,24 @@ export default function Index() {
                 <div className="flex items-center justify-center">
                     <img
                         className="w-[500px] my-4"
-                        src="/base-red.jpg"
+                        src="/buzzed.jpg"
                         alt="Matt in the mirror"
                     />
                 </div>
 
                 <div className="flex items-center justify-center">
-                    <h1>what do you want to try next</h1>
+                    <h1>what do you want to do?</h1>
                 </div>
 
                 <div className="flex items-center justify-center">
-                    <Link href="/base/blue">
-                        <div className="choice mx-5">pinkish red</div>
+                    <Link href="/buzz/bleach">
+                        <div className="choice mx-5">change the color</div>
                     </Link>{" "}
-                    <Link href="/base/blue">
-                        <div className="choice mx-5">orange red</div>
-                    </Link>{" "}
-                    <Link href="/base/blue">
-                        <div className="choice mx-5">redder red!!</div>
-                    </Link>{" "}
-                    <Link href="/base/buzz">
-                        <div className="choice mx-5">buzz</div>
+                    <Link href="/base/grow">
+                        <div className="choice mx-5">grow it out</div>
                     </Link>
                 </div>
+
                 <div className="flex items-center justify-center mt-8 ">
                     <Link href="/">
                         <div className="choice mx-5 opacity-30 hover:opacity-70 transition">

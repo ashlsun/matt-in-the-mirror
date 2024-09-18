@@ -27,14 +27,14 @@ export default function Index() {
                     <Link href="/base/dye">
                         <div className="choice mx-5">dye</div>
                     </Link>
-                    <Link href="/">
+                    <Link href="/base/grow">
                         <div className="choice mx-5">grow</div>
                     </Link>
                 </div>
 
                 <div className="flex items-center justify-center mt-8 ">
                     <Link href="/">
-                        <div className="choice mx-5 opacity-20 hover:opacity-70 transition">
+                        <div className="choice mx-5 opacity-30 hover:opacity-70 transition">
                             return to start
                         </div>
                     </Link>{" "}

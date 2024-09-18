@@ -9,6 +9,9 @@ export default function Index() {
                 <div className="flex items-center justify-center mt-4">
                     <h1>you look in the mirror </h1>
                 </div>
+                <div className="flex items-center justify-center opacity-40">
+                    hint: click on the picture and hold to reminisce
+                </div>
 
                 <div className="flex items-center justify-center">
                     <img
@@ -28,7 +31,7 @@ export default function Index() {
                     <Link href="/base/bleach">
                         <div className="choice mx-5">bleach</div>
                     </Link>{" "}
-                    <Link href="/base/buzz">
+                    <Link href="/buzz/">
                         <div className="choice mx-5">buzz</div>
                     </Link>
                     <Link href="/base/dye">

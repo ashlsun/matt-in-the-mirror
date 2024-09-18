@@ -10,11 +10,14 @@ body {
 }
 
 .choice {
+    opacity: 0.7;
     text-decoration: underline;
     cursor: pointer;
+    transition: ease-in-out all 100ms;
 }
 
 .choice:hover {
+    opacity: 1.0;
     font-weight: bold;
 
 }

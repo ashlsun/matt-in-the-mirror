@@ -5,58 +5,51 @@ export default function Index() {
         <>
             <div className="select-none">
                 <div className="flex items-center justify-center mt-4">
-                    <h1>
-                        omg last year when i was making this i wrote "looks
-                        kinda ken!"{" "}
-                    </h1>
+                    <h1>back to the original length! </h1>
                 </div>
 
                 <div className="flex items-center justify-center">
                     <img
                         className="w-[500px] my-4"
-                        src="/base-bleached-roots.JPG"
+                        src="/base.jpg"
                         alt="Matt in the mirror"
                     />
                 </div>
 
                 <div className="flex items-center justify-center">
-                    <h1>change the style (subtle)</h1>
+                    <h1>keep growing it out / pick a random style?</h1>
                 </div>
 
                 <div className="flex items-center justify-center">
-                    <Link href="/base/bleach">
-                        <div className="choice mx-5">style 1</div>
-                    </Link>{" "}
-                    <Link href="/base/bleach2">
-                        <div className="choice mx-5">style 2</div>
-                    </Link>
-                </div>
-                <br></br>
-
-                <div className="flex items-center justify-center">
-                    <h1>change the color</h1>
-                </div>
-                <div className="flex items-center justify-center">
-                    <Link href="/base/bleach2-neon-green">
+                    <Link href="/cropped">
                         <div className="choice mx-5">1</div>
                     </Link>{" "}
-                    <Link href="/base/bleach2-neon-orange">
+                    <Link href="/wavy">
                         <div className="choice mx-5">2</div>
                     </Link>
-                    <Link href="/base/bleach2-yellow">
+                    <Link href="/combed">
                         <div className="choice mx-5">3</div>
+                    </Link>
+                    <Link href="/water">
+                        <div className="choice mx-5">4</div>
+                    </Link>
+                    <Link href="/shag">
+                        <div className="choice mx-5">5</div>
+                    </Link>
+                    <Link href="/bieber">
+                        <div className="choice mx-5">6</div>
                     </Link>
                 </div>
                 <br></br>
+
                 <div className="flex items-center justify-center">
-                    <h1>mystery option</h1>
+                    <h1>or</h1>
                 </div>
                 <div className="flex items-center justify-center">
-                    <Link href="/base/bleach-brow">
-                        <div className="choice mx-5">i'm feeling lucky</div>
+                    <Link href="/">
+                        <div className="choice mx-5">keep current length</div>
                     </Link>{" "}
                 </div>
-                <br></br>
 
                 <div className="flex items-center justify-center mt-8 ">
                     <Link href="/">

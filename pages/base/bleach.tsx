@@ -17,7 +17,7 @@ export default function Index() {
                 </div>
 
                 <div className="flex items-center justify-center">
-                    <h1>choose a style</h1>
+                    <h1>change the style (subtle) </h1>
                 </div>
 
                 <div className="flex items-center justify-center">
@@ -31,7 +31,7 @@ export default function Index() {
 
                 <div className="flex items-center justify-center mt-8 ">
                     <Link href="/">
-                        <div className="choice mx-5 opacity-20 hover:opacity-70 transition">
+                        <div className="choice mx-5 opacity-30 hover:opacity-70 transition">
                             return to start
                         </div>
                     </Link>{" "}
