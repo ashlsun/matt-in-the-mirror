@@ -20,9 +20,7 @@ export default function Index() {
                     <h1>pick a random color</h1>
                 </div>
                 <div className="flex items-center justify-center ">
-                    <Link href="/wavy/blond">
-                        <div className="choice mx-5 transition">1</div>
-                    </Link>{" "}
+                    <div className=" mx-5 transition">1</div>
                     <Link href="/wavy/blue">
                         <div className="choice mx-5 transition">2 </div>
                     </Link>{" "}

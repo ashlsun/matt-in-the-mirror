@@ -37,6 +37,9 @@ export default function Index() {
                     <Link href="/base/dye">
                         <div className="choice mx-5">dye</div>
                     </Link>
+                    <Link href="/base/grow">
+                        <div className="choice mx-5">grow</div>
+                    </Link>
                 </div>
             </div>
         </>

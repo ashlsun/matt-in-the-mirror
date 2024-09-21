@@ -29,9 +29,7 @@ export default function Index() {
                     <Link href="/wavy/brown">
                         <div className="choice mx-5 transition">3 </div>
                     </Link>{" "}
-                    <Link href="/wavy/pink">
-                        <div className="choice mx-5 transition">4 </div>
-                    </Link>{" "}
+                    <div className=" mx-5 transition">4 </div>
                     <Link href="/wavy/purple">
                         <div className="choice mx-5 transition">5 </div>
                     </Link>{" "}

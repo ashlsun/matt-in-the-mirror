@@ -22,11 +22,25 @@ export default function Index() {
 
                 <div className="flex items-center justify-center">
                     <Link href="/base/blue">
-                        <div className="choice mx-5">blue</div>
+                        <div className="choice mx-5">1</div>
                     </Link>{" "}
                     <Link href="/base/red">
-                        <div className="choice mx-5">red</div>
+                        <div className="choice mx-5">2</div>
                     </Link>
+                    <Link href="/base/red">
+                        <div className="choice mx-5">2</div>
+                    </Link>
+                </div>
+                <br></br>
+
+                <div className="flex items-center justify-center">
+                    <h1>
+                        (hint: for more colors, it might be beneficial to{" "}
+                        <Link href="/base/bleach">
+                            <span className="choice">bleach</span>
+                        </Link>{" "}
+                        your hair first)
+                    </h1>
                 </div>
 
                 <div className="flex items-center justify-center mt-8 ">

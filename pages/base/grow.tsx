@@ -5,7 +5,7 @@ export default function Index() {
         <>
             <div className="select-none">
                 <div className="flex items-center justify-center mt-4">
-                    <h1>back to the original length! </h1>
+                    <h1>your hair is growing out! </h1>
                 </div>
 
                 <div className="flex items-center justify-center">
@@ -17,7 +17,7 @@ export default function Index() {
                 </div>
 
                 <div className="flex items-center justify-center">
-                    <h1>keep growing it out / pick a random style?</h1>
+                    <h1>pick a random style?</h1>
                 </div>
 
                 <div className="flex items-center justify-center">
@@ -39,16 +39,6 @@ export default function Index() {
                     <Link href="/bieber">
                         <div className="choice mx-5">6</div>
                     </Link>
-                </div>
-                <br></br>
-
-                <div className="flex items-center justify-center">
-                    <h1>or</h1>
-                </div>
-                <div className="flex items-center justify-center">
-                    <Link href="/">
-                        <div className="choice mx-5">keep current length</div>
-                    </Link>{" "}
                 </div>
 
                 <div className="flex items-center justify-center mt-8 ">
