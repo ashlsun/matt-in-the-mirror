@@ -28,6 +28,32 @@ export default function Index() {
                         <div className="choice mx-5">style 2</div>
                     </Link>
                 </div>
+                <br></br>
+
+                <div className="flex items-center justify-center">
+                    <h1>or pick a color </h1>
+                </div>
+
+                <div className="flex items-center justify-center">
+                    <Link href="/base/dusty-blue">
+                        <div className="choice mx-5">1</div>
+                    </Link>{" "}
+                    <Link href="/base/lime">
+                        <div className="choice mx-5"> 2</div>
+                    </Link>
+                    <Link href="/base/magenta">
+                        <div className="choice mx-5"> 3</div>
+                    </Link>
+                    <Link href="/base/green">
+                        <div className="choice mx-5"> 4</div>
+                    </Link>
+                    <Link href="/base/spotify">
+                        <div className="choice mx-5"> 5</div>
+                    </Link>
+                    <Link href="/base/orange">
+                        <div className="choice mx-5"> 6</div>
+                    </Link>
+                </div>
 
                 <div className="flex items-center justify-center mt-8 ">
                     <Link href="/">

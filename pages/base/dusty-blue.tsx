@@ -5,30 +5,40 @@ export default function Index() {
         <>
             <div className="select-none">
                 <div className="flex items-center justify-center mt-4">
-                    <h1>you look in the mirror </h1>
+                    <h1>dusty blue</h1>
                 </div>
 
                 <div className="flex items-center justify-center">
                     <img
                         className="w-[500px] my-4"
-                        src="/buzzed-bleached.jpg"
+                        src="/base-dusty-blue.jpg"
                         alt="Matt in the mirror"
                     />
                 </div>
+                <br></br>
 
                 <div className="flex items-center justify-center">
-                    <h1>pick a color (hint: they're all secondary)</h1>
+                    <h1>pick a color </h1>
                 </div>
 
                 <div className="flex items-center justify-center">
-                    <Link href="/buzz/orange">
+                    <Link href="/base/dusty-blue">
                         <div className="choice mx-5">1</div>
                     </Link>{" "}
-                    <Link href="/buzz/green">
-                        <div className="choice mx-5">2</div>
+                    <Link href="/base/lime">
+                        <div className="choice mx-5"> 2</div>
                     </Link>
-                    <Link href="/buzz/purple">
-                        <div className="choice mx-5">3</div>
+                    <Link href="/base/magenta">
+                        <div className="choice mx-5"> 3</div>
+                    </Link>
+                    <Link href="/base/green">
+                        <div className="choice mx-5"> 4</div>
+                    </Link>
+                    <Link href="/base/spotify">
+                        <div className="choice mx-5"> 5</div>
+                    </Link>
+                    <Link href="/base/orange">
+                        <div className="choice mx-5"> 6</div>
                     </Link>
                 </div>
 
