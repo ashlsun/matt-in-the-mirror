@@ -5,7 +5,7 @@ export default function Index() {
         <>
             <div className="select-none">
                 <div className="flex items-center justify-center mt-4">
-                    <h1>it's yellow!</h1>
+                    <h1>it's a dandelion yellow!</h1>
                 </div>
 
                 <div className="flex items-center justify-center">

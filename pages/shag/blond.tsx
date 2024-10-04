@@ -5,13 +5,13 @@ export default function Index() {
         <>
             <div className="select-none">
                 <div className="flex items-center justify-center mt-4">
-                    <h1>seems like your hair is wet</h1>
+                    <h1>slight barbie</h1>
                 </div>
 
                 <div className="flex items-center justify-center">
                     <img
                         className="w-[500px] my-4"
-                        src="/water.JPG"
+                        src="/shag-blond.jpg"
                         alt="Matt in the mirror"
                     />
                 </div>
@@ -19,26 +19,20 @@ export default function Index() {
                 <div className="flex items-center justify-center">
                     <h1>pick a color</h1>
                 </div>
-
-                <div className="flex items-center justify-center">
-                    <Link href="/water/blond">
-                        <div className="choice mx-5">1</div>
+                <div className="flex items-center justify-center ">
+                    <div className=" mx-5 transition">1 </div>
+                    <Link href="/shag/gray">
+                        <div className="choice mx-5 transition">2 </div>
                     </Link>{" "}
-                    <Link href="/water/blue">
-                        <div className="choice mx-5">2</div>
-                    </Link>
-                    <Link href="/water/green">
-                        <div className="choice mx-5">3</div>
-                    </Link>
-                    <Link href="/water/lilac">
-                        <div className="choice mx-5">4</div>
+                    <Link href="/shag/navy">
+                        <div className="choice mx-5 transition">3 </div>
                     </Link>{" "}
-                    <Link href="/water/sky">
-                        <div className="choice mx-5">5</div>
-                    </Link>
-                    <Link href="/water/white">
-                        <div className="choice mx-5">6</div>
-                    </Link>
+                    <Link href="/shag/purple">
+                        <div className="choice mx-5 transition">4 </div>
+                    </Link>{" "}
+                    <Link href="/shag/red">
+                        <div className="choice mx-5 transition">5 </div>
+                    </Link>{" "}
                 </div>
 
                 <div className="flex items-center justify-center mt-8 ">

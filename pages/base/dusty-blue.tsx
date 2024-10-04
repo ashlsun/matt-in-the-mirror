@@ -15,16 +15,13 @@ export default function Index() {
                         alt="Matt in the mirror"
                     />
                 </div>
-                <br></br>
 
                 <div className="flex items-center justify-center">
                     <h1>pick a color </h1>
                 </div>
 
                 <div className="flex items-center justify-center">
-                    <Link href="/base/dusty-blue">
-                        <div className="choice mx-5">1</div>
-                    </Link>{" "}
+                    <div className=" mx-5">1</div>
                     <Link href="/base/lime">
                         <div className="choice mx-5"> 2</div>
                     </Link>

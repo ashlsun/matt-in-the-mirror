@@ -5,13 +5,13 @@ export default function Index() {
         <>
             <div className="select-none">
                 <div className="flex items-center justify-center mt-4">
-                    <h1>seems like your hair is wet</h1>
+                    <h1>seems like your hair reflects the morning sky</h1>
                 </div>
 
                 <div className="flex items-center justify-center">
                     <img
                         className="w-[500px] my-4"
-                        src="/water.JPG"
+                        src="/water-sky.jpg"
                         alt="Matt in the mirror"
                     />
                 </div>
@@ -33,9 +33,7 @@ export default function Index() {
                     <Link href="/water/lilac">
                         <div className="choice mx-5">4</div>
                     </Link>{" "}
-                    <Link href="/water/sky">
-                        <div className="choice mx-5">5</div>
-                    </Link>
+                    <div className=" mx-5">5</div>
                     <Link href="/water/white">
                         <div className="choice mx-5">6</div>
                     </Link>
