@@ -11,7 +11,7 @@ export default function Index() {
                 <div className="flex items-center justify-center">
                     <img
                         className="w-[500px] my-4"
-                        src="/base-bleached-roots-eyebrows.JPG"
+                        src="/base-bleached-roots-eyebrows.jpg"
                         alt="Matt in the mirror"
                     />
                 </div>
