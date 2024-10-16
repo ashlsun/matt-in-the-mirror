@@ -21,7 +21,7 @@ export default function Index() {
                 </div>
 
                 <div className="flex items-center justify-center">
-                    <Link href="/base/blue">
+                    <Link href="/base/red">
                         <div className="choice mx-5">red</div>
                     </Link>{" "}
                     <Link href="/base/bleach">
