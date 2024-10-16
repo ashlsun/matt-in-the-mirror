@@ -22,18 +22,16 @@ export default function Index() {
 
                 <div className="flex items-center justify-center">
                     <Link href="/base/blue">
-                        <div className="choice mx-5">pinkish red</div>
+                        <div className="choice mx-5">blue</div>
                     </Link>{" "}
-                    <Link href="/base/blue">
-                        <div className="choice mx-5">orange red</div>
-                    </Link>{" "}
-                    <Link href="/base/blue">
-                        <div className="choice mx-5">redder red!!</div>
+                    <Link href="/base/bleach">
+                        <div className="choice mx-5">bleach</div>
                     </Link>{" "}
                     <Link href="/base/buzz">
                         <div className="choice mx-5">buzz</div>
                     </Link>
                 </div>
+
                 <div className="flex items-center justify-center mt-8 ">
                     <Link href="/">
                         <div className="choice mx-5 opacity-30 hover:opacity-70 transition">

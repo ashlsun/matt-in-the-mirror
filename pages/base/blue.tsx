@@ -11,7 +11,7 @@ export default function Index() {
                 <div className="flex items-center justify-center">
                     <img
                         className="w-[500px] my-4"
-                        src="/base-blue.jpg"
+                        src="/base-indigo.jpg"
                         alt="Matt in the mirror"
                     />
                 </div>
@@ -22,13 +22,10 @@ export default function Index() {
 
                 <div className="flex items-center justify-center">
                     <Link href="/base/blue">
-                        <div className="choice mx-5">greener blue</div>
+                        <div className="choice mx-5">red</div>
                     </Link>{" "}
-                    <Link href="/base/blue">
-                        <div className="choice mx-5">bluer blue</div>
-                    </Link>{" "}
-                    <Link href="/base/blue">
-                        <div className="choice mx-5">lighter blue</div>
+                    <Link href="/base/bleach">
+                        <div className="choice mx-5">bleach</div>
                     </Link>{" "}
                     <Link href="/base/buzz">
                         <div className="choice mx-5">buzz</div>

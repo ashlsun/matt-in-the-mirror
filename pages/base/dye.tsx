@@ -27,9 +27,6 @@ export default function Index() {
                     <Link href="/base/red">
                         <div className="choice mx-5">2</div>
                     </Link>
-                    <Link href="/base/red">
-                        <div className="choice mx-5">2</div>
-                    </Link>
                 </div>
                 <br></br>
 
